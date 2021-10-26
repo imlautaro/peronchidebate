@@ -13,14 +13,14 @@ const config: NuxtConfig = {
 	googleFonts: {
 		display: 'swap',
 		families: {
-			Inter: [400, 600, 700],
+			'Encode+Sans': [400, 600, 700],
 		},
 	},
 	pwa: {
 		manifest: {
-			name: 'Nuxt App',
-			short_name: 'Nuxt App',
-			lang: 'en',
+			name: 'Peronchidebate',
+			short_name: 'Peronchidebate',
+			lang: 'es',
 		},
 	},
 	router: {

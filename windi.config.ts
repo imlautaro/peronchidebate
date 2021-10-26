@@ -4,8 +4,16 @@ import native from 'windi-native'
 const config = defineConfig({
 	plugins: [native],
 	theme: {
+		extend: {
+			colors: {
+				primary: {
+					DEFAULT: '#0072bb',
+					dark: '#00478a',
+				},
+			},
+		},
 		fontFamily: {
-			sans: ['Inter', 'sans-serif'],
+			sans: ['"Encode Sans"', 'sans-serif'],
 		},
 	},
 })
