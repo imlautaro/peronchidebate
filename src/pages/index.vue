@@ -42,10 +42,10 @@
 	</container>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { onMounted, ref } from '@nuxtjs/composition-api'
 
-const data: string[][] = [
+const data = [
 	[
 		'La inflación',
 		'La corrupción',
@@ -88,7 +88,7 @@ const data: string[][] = [
 	],
 ]
 
-const phrase = ref<string>('')
+const phrase = ref('')
 
 const generate = () => {
 	phrase.value = data
