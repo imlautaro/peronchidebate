@@ -1,0 +1,7 @@
+# NodeJS
+node_modules/
+
+# NuxtJS
+.nuxt/
+dist/
+sw.*
